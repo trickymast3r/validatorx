@@ -1,5 +1,5 @@
 {
-    "name": "trickymast3r/xvalidator",
+    "name": "trickymast3r/validatorx",
     "description": "Extra Validator for Phalcon",
     "minimum-stability": "stable",
     "license": "BSD-3-Clause",
@@ -11,10 +11,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tricky\\Xvalidator\\": "src/"
+            "Tricky\\Validatorx\\": "src/"
         }
     },
     "require": {
-        "php" : "~5.4"
+        "php" : "~5.4",
+        "ext-phalcon": ">=2.0"
+    },
+    "support": {
+      "source": "https://github.com/trickymast3r/validatorx",
+      "issues": "https://github.com/trickymast3r/validatorx/issues",
+      "wiki":   "https://github.com/trickymast3r/validatorx/wiki"
     }
 }
